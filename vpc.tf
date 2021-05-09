@@ -4,8 +4,8 @@ module "vpc" {
   cidr   = "10.10.0.0/20"
 
   tags = {
-    Owner       = "user"
-    Environment = "dev"
+    Owner       = var.owner
+    Environment = var.environment
   }
 
   vpc_tags = {
