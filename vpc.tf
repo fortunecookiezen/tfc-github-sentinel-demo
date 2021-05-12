@@ -9,6 +9,6 @@ module "vpc" {
   }
 
   vpc_tags = {
-    Name = "celeste"
+    Name = "celeste-vpc"
   }
 }
